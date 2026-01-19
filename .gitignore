@@ -53,3 +53,11 @@ dkms.conf
 
 # debug information files
 *.dwo
+/HardwareDebug/
+
+# --- e2 studio Specific ---
+/Debug/
+/Release/
+/.settings/      # チームでデバッグ構成を共有しない場合は除外（推奨）
+.metadata/       # ワークスペース設定（混入防止）
+*.launch         # 個人のデバッグ起動設定（混入防止）
